@@ -11,6 +11,7 @@ const Dashboard = () => {
   const { user } = useAuth0();
   const [userData, setUserData] = useState({ "user_metadata": { "role": 'N/A' } });
   const [loading, setLoading] = useState("false");
+
   const [selectedDay, setSelectedDay] = useState(today);
   var selectedDayVar = today;
 

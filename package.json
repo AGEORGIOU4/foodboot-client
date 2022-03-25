@@ -1,17 +1,17 @@
 {
-  "name": "@coreui/coreui-free-react-admin-template",
-  "version": "4.2.0",
-  "description": "CoreUI Free React Admin Template",
+  "name": "foodboot",
+  "version": "1.0.0",
+  "description": "Meal Planning App - Clients Side",
   "homepage": ".",
   "bugs": {
-    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
+    "url": "https://github.com/AGEORGIOU4/foodboot-clients/"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
+    "url": "git@github.com:https://github.com/AGEORGIOU4/foodboot"
   },
   "license": "MIT",
-  "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
+  "author": "Andreas Georgiou",
   "scripts": {
     "build": "react-scripts build",
     "changelog": "auto-changelog --starting-version 4.1.0 --commit-limit false --hide-credit",
