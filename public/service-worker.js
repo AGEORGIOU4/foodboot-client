@@ -1,10 +1,13 @@
 self.addEventListener('install', function (event) {
   // Perform install steps
   event.waitUntil(
-    caches.open('foodboot-cache')
+    caches.open('v1')
       .then(function (cache) {
         console.log('Opened cache');
-        return cache.addAll();
+        return cache.addAll([
+          '/dashboard',
+          '/index.html',
+        ]);
       })
   );
   self.skipWaiting();

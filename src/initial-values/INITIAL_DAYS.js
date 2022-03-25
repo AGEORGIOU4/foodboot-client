@@ -35,3 +35,34 @@ export const INITIAL_DAYS = [
     value: 0
   }
 ]
+
+export function convertDays(dayNum) {
+  let day = "";
+
+  switch (dayNum) {
+    case "Sunday":
+      day = "Sunday";
+      return day;
+    case 1:
+      day = "Monday";
+      return day;
+    case 2:
+      day = "Tuesday";
+      return day;
+    case 3:
+      day = "Wednesday";
+      return day;
+    case 4:
+      day = "Thursday";
+      return day;
+    case 5:
+      day = "Friday";
+      return day;
+    case 6:
+      day = "Saturday";
+      return day;
+    default:
+      return "Sunday";
+  }
+
+}

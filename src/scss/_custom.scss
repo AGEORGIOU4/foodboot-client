@@ -7,3 +7,33 @@
     color: #ffffff;
     width: 70px;
 }
+
+.px-3 {
+  padding-right: 0% !important;
+  padding-left: 0% !important;
+}
+
+.container-lg {
+  padding: 0% !important;
+}
+
+.table-container {
+  padding: 0% !important;
+}
+
+td {
+padding: 10px 4px;
+border-bottom: 1px solid #e6e6e6;
+}
+
+th {
+  padding: 10px 4px;
+  border-bottom: 2px solid;
+}
+.card-body {
+  padding: 4px;
+}
+
+.form-label {
+  margin-bottom: 0px;
+}

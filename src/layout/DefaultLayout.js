@@ -1,5 +1,5 @@
 import React from 'react'
-import { AppContent, AppSidebar, AppHeader, AppAside } from '../components/index'
+import { AppContent, AppSidebar, AppHeader } from '../components/index'
 
 const DefaultLayout = () => {
   return (
@@ -11,7 +11,7 @@ const DefaultLayout = () => {
           <AppContent />
         </div>
       </div>
-      <AppAside />
+      {/* <AppAside /> */}
     </div>
   )
 }

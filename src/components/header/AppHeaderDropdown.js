@@ -1,19 +1,14 @@
 import React from 'react'
 import {
   CAvatar,
-  CBadge,
   CDropdown,
-  CDropdownDivider,
   CDropdownHeader,
   CDropdownItem,
   CDropdownMenu,
   CDropdownToggle,
 } from '@coreui/react'
 import {
-  cilSettings,
-  cilUser,
   cilArrowCircleLeft,
-  cilArrowCircleRight,
 } from '@coreui/icons'
 import CIcon from '@coreui/icons-react'
 import { useAuth0 } from "@auth0/auth0-react";

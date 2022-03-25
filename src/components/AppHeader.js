@@ -9,13 +9,13 @@ import {
   CImage,
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
-import { cilApplicationsSettings, cilMenu } from '@coreui/icons'
+import { cilMenu } from '@coreui/icons'
 import { AppHeaderDropdown } from './header/index'
 
 const AppHeader = () => {
   const dispatch = useDispatch()
   const sidebarShow = useSelector((state) => state.sidebarShow)
-  const asideShow = useSelector((state) => state.asideShow)
+  // const asideShow = useSelector((state) => state.asideShow)
 
   return (
     <CHeader position="sticky" className="mb-4">
@@ -29,10 +29,10 @@ const AppHeader = () => {
         <CHeaderNav>
         </CHeaderNav>
         <CHeaderNav >
-          <CHeaderToggler
+          {/* <CHeaderToggler
             className="list-toggler px-md-0 me-md-3" onClick={() => dispatch({ type: 'set', asideShow: !asideShow })} >
             <CIcon icon={cilApplicationsSettings} size="lg" />
-          </CHeaderToggler>
+          </CHeaderToggler> */}
           <AppHeaderDropdown />
         </CHeaderNav>
       </CContainer>
