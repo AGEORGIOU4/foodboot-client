@@ -3,8 +3,7 @@ import { withAuthenticationRequired, useAuth0 } from '@auth0/auth0-react'
 import { CButton, CCol, CFormSelect } from '@coreui/react'
 import { INITIAL_DAYS } from '../../initial-values/INITIAL_DAYS'
 import { auth0ApiCall } from 'src/api-ops/auth0';
-import { askForPermissionToReceiveNotifications } from '../../push-notification';
-
+import { askForPermissionToReceiveNotifications } from '../../push-notification'
 const date = new Date();
 let today = date.getDay();
 

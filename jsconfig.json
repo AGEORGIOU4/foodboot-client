@@ -2,5 +2,9 @@
   "compilerOptions": {
     "baseUrl": "."
   },
-  "include": ["src"]
+  "include": [
+    "public/push-notification.js",
+    "src",
+    "public/serviceWorker.js"
+  ]
 }
