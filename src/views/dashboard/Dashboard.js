@@ -127,7 +127,7 @@ const Dashboard = () => {
               <CDataTable data={clientFoodCombinations} typeOfMeal='Breakfast' color={'#d5f1de'} />
               <CDataTable data={clientFoodCombinations} typeOfMeal='Morning Snack' color={'#d6ebff'} />
               <CDataTable data={clientFoodCombinations} typeOfMeal='Lunch' color={'#feefd0'} />
-              <CDataTable data={clientFoodCombinations} typeOfMeal='AfternoonSnack' color={'#d6d2f8'} />
+              <CDataTable data={clientFoodCombinations} typeOfMeal='Afternoon Snack' color={'#d6d2f8'} />
               <CDataTable data={clientFoodCombinations} typeOfMeal='Dinner' color={'#fadddd'} />
 
             </CCardBody>
