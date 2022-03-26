@@ -99,18 +99,21 @@ const Dashboard = () => {
 
   return (
     <>
-      <CCard>
-        <CCardHeader >
-          <Switch id='notifications-toggler' className='float-end' onChange={handleChangePermission} value={selectedPermission} checked={selectedPermission} />
-          <CFormLabel htmlFor="notifications-toggler" style={{ marginRight: '10px' }} className='float-end'><strong>Reminder Notifications</strong></CFormLabel>
-        </CCardHeader>
+      <CRow >
+        <CCol xs={12}>
+          <CCard>
+            <CCardHeader >
+              <Switch id='notifications-toggler' className='float-end' onChange={handleChangePermission} value={selectedPermission} checked={selectedPermission} />
+              <CFormLabel htmlFor="notifications-toggler" style={{ marginRight: '10px' }} className='float-end'><strong>Reminder Notifications</strong></CFormLabel>
+            </CCardHeader>
 
-        <CCardBody>
-          <CFormSelect value={selectedDay} options={INITIAL_DAYS}
-            onChange={handleChangeDay} />
-        </CCardBody>
-      </CCard>
-
+            <CCardBody>
+              <CFormSelect value={selectedDay} options={INITIAL_DAYS}
+                onChange={handleChangeDay} />
+            </CCardBody>
+          </CCard>
+        </CCol>
+      </CRow>
 
       <CRow >
         <CCol xs={12} style={{ display: (loading) ? 'none' : 'block' }}>
