@@ -4,10 +4,7 @@ self.addEventListener('install', function (event) {
     caches.open('v1')
       .then(function (cache) {
         console.log('Opened cache');
-        return cache.addAll([
-          '/dashboard',
-          '/index.html',
-        ]);
+        return cache.addAll([]);
       })
   );
 });
