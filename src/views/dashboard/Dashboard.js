@@ -25,7 +25,7 @@ const Dashboard = () => {
   const [selectedDayInString, setSelectedDayInString] = useState(convertDays(today));
   var selectedDayVar = today;
 
-  const [selectedPermission, setSelectedPermission] = useState(true);
+  const [selectedPermission, setSelectedPermission] = useState(false);
 
   var client_id = "";
   var meal_plan_id = "";
